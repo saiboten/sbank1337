@@ -1,3 +1,5 @@
+'use strict';
+
 const request =  require('superagent');
 var Promise = require('promise');
 var btoa = require('btoa');

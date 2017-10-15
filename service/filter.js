@@ -1,3 +1,5 @@
+'use strict';
+
 exports.filterAccounts = (accountList) => {
     console.log('Filtering accounts' + accountList);
     
