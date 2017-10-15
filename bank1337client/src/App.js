@@ -53,11 +53,10 @@ class App extends Component {
     return (
       <div className="App">
         <p className="App__Header__text">Kroner fra 1337</p>
-        <div className="App__Sum">{this.state.sum != -1 ? `${this.state.sum} kr` : 'Laster'} </div>
+        <div className="App__Sum">{this.state.sum != -1 ? `${this.state.sum}` : 'Laster'} </div>
         <p className="App__Status">{this.state.sum != -1 ? response : ''}</p>
         <p className="App__Explanation">Forklaring: Tallet viser den konto som er nærmest summen 1337 kroner av dine bruks- og sparekontoer</p>
         <p className="App__Status">Neste beste konto: {this.state.next != -1 ? `${this.state.next} kr` : 'Laster'}</p>
-        <p className="App__Footer">Ⓒ Tobias Rusås Olsen - 2017</p>
       </div>
     );
   }
