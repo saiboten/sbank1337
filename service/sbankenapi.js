@@ -42,8 +42,7 @@ exports.getAccessToken = () => {
 }
 
 exports.getAccountDetails = (accessToken) => {
-    var userid = "19088533936";
-    var accountServiceUrl = "https://api.sbanken.no/bank/api/v1/accounts/"+userid; //
+    var accountServiceUrl = "https://api.sbanken.no/bank/api/v1/accounts/"+credentials.userid; //
 
     // use accessToken to request accounts (the bearer token (accessToken) is put on the request header prior to sending the request)
 
