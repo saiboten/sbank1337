@@ -15,16 +15,27 @@ body {
   height: 80px;
 }
 
+
+
+.App__Header__text {
+  font-size: 1.5em;
+}
+
 .App__Sum {
-  font-size: 7em;
+  font-size: 4em;
 }
 
 .App__Explanation {
-  font-size: 0.5em;
+  font-size: 0.8em;
 }
 
+.App__Status {
+  font-size: 1.5em;
+}
+
+
 .App__Footer {
-  font-size: 0.8em;
+  font-size: 1.3em;
 }
 
 .App-header {
